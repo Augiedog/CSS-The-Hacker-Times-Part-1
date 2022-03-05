@@ -12,7 +12,7 @@
   <div class="newspaper-container">
     <!-- header -->
     <header>
-      <div class="date"></div>
+      <div class="date" id="date">'${dateTime}'</div>
       <h1>The Hacker Times</h1>
     </header>
     <!-- navigation -->
@@ -51,6 +51,9 @@
       </section>
     </div>
   </div>
-  <script src="/main.js"></script>
+  <script src="/main.js">
+    // display the dateTime Var
+    document.getElementById('date').write(dateTime);
+  </script>
 </body>
 </html>

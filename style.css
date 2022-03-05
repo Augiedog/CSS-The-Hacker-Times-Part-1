@@ -9,6 +9,9 @@ body {
 a {
     text-decoration: none;
 }
+a:hover {
+  color: red;
+}
 p {
     text-align: justify;
     padding: 0em 7px;
@@ -34,6 +37,12 @@ header {
     text-align: center;
     font-size: 2em;
     font-family: Abril Fatface;
+}
+.date {
+  text-align: left;
+  font-size: .75em;
+  font-family: Roboto Slab;
+  border: yellow;
 }
 /* Navigation Bar */
 nav { 
