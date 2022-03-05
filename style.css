@@ -13,14 +13,6 @@ p {
     padding: 0em 7px;
     font-size: .85em;
 }
-nav { 
-    background: white;
-    margin: auto;
-    border-top: 1px solid #c1c1c1;
-    border-bottom: 1px solid #c1c1c1;
-    padding: 5px 0;
-
-}
 /* this makes it look like a newspaper */
 /* Newspaper Container
 All the newspaper content should be held within a container that has a width of 700px.
@@ -40,9 +32,16 @@ Don't forget to give it some padding. */
 header {
     text-align: center;
     font-size: 2em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /* Navigation Bar */
+nav { 
+    background: white;
+    margin: auto;
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+    padding: 5px 0;
+}
 nav ul {
     margin: 0em;
     list-style: none;
@@ -54,7 +53,7 @@ nav li {
 nav a {
     font-size: .75em;
     color: #0e12eb;
-    font-family: Times;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /* Main article */
 main h2 {
@@ -62,4 +61,14 @@ main h2 {
 }
 main h5 {
     color: #dd3232;
+}
+main img {
+    width: 100%;
+}
+/* More articles */
+.more-articles {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0em 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
