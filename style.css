@@ -8,6 +8,11 @@ body {
 a {
     text-decoration: none;
 }
+p {
+    text-align: justify;
+    padding: 0em 7px;
+    font-size: .85em;
+}
 nav { 
     background: white;
     margin: auto;
@@ -22,23 +27,39 @@ All the newspaper content should be held within a container that has a width of 
 The newspaper container should have rounded edges using border-radius.
 It should also have a box-shadow.
 Don't forget to give it some padding. */
+/* Wrapper */
 .newspaper-container {
     padding: 1em;
     width: 700px;
     margin: auto;
     border-radius: 15px;
-    box-shadow: #0e12eb;
-
-
+    box-shadow: 10px 10px #ddd;
+    background-color: white;
 }
+/* Header */
+header {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Navigation Bar */
 nav ul {
+    margin: 0em;
     list-style: none;
 }
 nav li {
     display: inline-block;
-    padding: 1em;
+    padding: 0 .5em;
 }
 nav a {
     font-size: .75em;
     color: #0e12eb;
+    font-family: ;
+}
+/* Main article */
+main h2 {
+    border: #0e12eb;
+}
+main h5 {
+    color: #dd3232;
 }
