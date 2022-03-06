@@ -17,6 +17,9 @@ p {
     padding: 0em 7px;
     font-size: .85em;
 }
+img {
+    filter: grayscale(100%);
+}
 /* this makes it look like a newspaper */
 /* Newspaper Container
 All the newspaper content should be held within a container that has a width of 700px.
