@@ -49,11 +49,14 @@ header {
 }
 /* Navigation Bar */
 nav { 
+    position: sticky;
+    top: 0;
     background: white;
     margin: auto;
     border-top: 1px solid #c1c1c1;
     border-bottom: 1px solid #c1c1c1;
     padding: 5px 0;
+    z-index: 1;
 }
 nav ul {
     margin: 0em;
